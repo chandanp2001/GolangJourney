@@ -59,9 +59,9 @@ func (fr Freelancer) GetType() string {
 }
 
 func main() {
-	fullTimeEmp := FullTime{DailyRate: 500.75, DaysWorked: 22.5}     // Example float values
-	contractorEmp := Contractor{DailyRate: 300.50, DaysWorked: 20}   // Example float values
-	freelancerEmp := Freelancer{HourlyRate: 150.25, HoursWorked: 30} // Example float values
+	fullTimeEmp := FullTime{DailyRate: 500.75, DaysWorked: 22.5}     
+	contractorEmp := Contractor{DailyRate: 300.50, DaysWorked: 20}   
+	freelancerEmp := Freelancer{HourlyRate: 150.25, HoursWorked: 30} 
 
 	employees := []Employee{fullTimeEmp, contractorEmp, freelancerEmp}
 
